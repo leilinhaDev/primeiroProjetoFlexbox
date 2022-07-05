@@ -136,7 +136,6 @@ header .menu {
 
 .listServicos .itemServico {
     text-align: center;
-
 }
 
 .itemServico a {
@@ -168,8 +167,9 @@ header .menu {
 
 #planos {
     flex-direction: column;
-    min-height: 100vh;
     padding-top: 50px;
+    min-height: fit-content;
+    padding-bottom: 50px;
 }
 
 #planos h2 {
